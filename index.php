@@ -174,16 +174,16 @@ require  'koneksi.php';
                                     <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card mb-4">
-                            <div class="card-header">
+                        <!-- </div>
+                        <div class="card mb-4"> -->
+                            <!-- <div class="card-header">
                                 <i class="fas fa-table mr-1"></i>
                                 DataTable Example
-                            </div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                        <thead>
+                            </div> -->
+                            <!-- <div class="card-body">
+                                <div class="table-responsive"> -->
+                                    <!-- <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0"> -->
+                                        <!-- <thead>
                                             <tr>
                                                 <th>No Surat</th>
                                                 <th>Tanggal Surat</th>
@@ -194,7 +194,7 @@ require  'koneksi.php';
                                                 <th>Perihal</th>
                                                 <th>Tindakan</th>
                                             </tr>
-                                        </thead>
+                                        </thead> -->
 <!--                                         
                                         <tbody>
                                             <tr>
@@ -209,10 +209,10 @@ require  'koneksi.php';
                                             </tr>
                                          
                                         </tbody> -->
-                                    </table>
+                                    <!-- </table>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </main>
                 <footer class="py-4 bg-light mt-auto">
