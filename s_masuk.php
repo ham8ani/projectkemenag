@@ -1,11 +1,15 @@
-<?php
 
-require 'function.php';
-require  'cek.php';
-require  'koneksi.php';
+<?
+//Koneksi Database
+	$server = "localhost";
+	$user = "root";
+	$pass = "";
+	$database = "db_surat";
 
+	$koneksi = mysqli_connect($server, $user, $pass, $database)or die(mysqli_error($koneksi));
 ?>
 
+    
 
 <!-- update 23 april 2021 pukul 10:35 -->
 <!DOCTYPE html>
@@ -117,36 +121,14 @@ require  'koneksi.php';
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">Data Berdasarkan Surat Masuk</li>
                         </ol>
-                        <div class="row">
-                            <div class="col-xl-3 col-md-6">
-                               
-                            </div>
-                            <div class="col-xl-3 col-md-6">
-                            
-                            </div>
-                            <div class="col-xl-3 col-md-6">
-                                
-                            </div>
-                            
+                        <div class="row">                         
                         </div>
                         <div class="row">
                             <div class="col-xl-6">
                                 <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-area mr-1"></i>
-                                        Surat Masuk
-                                    </div>
-                                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+                                
                                 </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-bar mr-1"></i>
-                                        Surat Keluar
-                                    </div>
-                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
-                                </div>
+                           
                             </div>
                         </div>
                         <div class="card mb-4">
