@@ -101,20 +101,12 @@ require  'koneksi.php';
                                     </div>
                                 </nav>
                             </div>
-                            <div class="sb-sidenav-menu-heading">Addons</div>
-                            <a class="nav-link" href="charts.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                Charts
-                            </a>
-                            <a class="nav-link" href="tables.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Tables
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
-                        Start Bootstrap
+                        Administrator
                     </div>
                 </nav>
             </div>
@@ -203,7 +195,7 @@ require  'koneksi.php';
                                                 <th>Tindakan</th>
                                             </tr>
                                         </thead>
-                                        
+<!--                                         
                                         <tbody>
                                             <tr>
                                                 <td>12345</td>
@@ -216,7 +208,7 @@ require  'koneksi.php';
                                                 <td></td>
                                             </tr>
                                          
-                                        </tbody>
+                                        </tbody> -->
                                     </table>
                                 </div>
                             </div>
@@ -226,11 +218,9 @@ require  'koneksi.php';
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2020</div>
+                            <div class="text-muted">Copyright &copy; Kantor Wilayah Kementerian Agama Kepulauan Riau 2021</div>
                             <div>
-                                <a href="#">Privacy Policy</a>
-                                &middot;
-                                <a href="#">Terms &amp; Conditions</a>
+                          
                             </div>
                         </div>
                     </div>
